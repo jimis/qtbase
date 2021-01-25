@@ -12,8 +12,8 @@ name: Smoke build
 on: push
 
 env:
-  BRANCH:     dev
-  BRANCH_REF: refs/heads/dev
+  BRANCH:     6.0
+  BRANCH_REF: refs/heads/6.0
 
 defaults:
   run:
