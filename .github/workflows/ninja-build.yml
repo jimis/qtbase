@@ -61,7 +61,7 @@ jobs:
 
     - name: configure
       working-directory: build
-      run:  "../source/configure -cmake -opensource -confirm-license -ccache -no-pch
+      run:  "../source/configure -ccache -no-pch
         -debug -nomake tests -nomake examples
         -prefix '${{ runner.temp }}'/install_dir
         ${{ env.CONFIGURE_FLAGS }}"
